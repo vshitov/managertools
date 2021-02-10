@@ -1,10 +1,12 @@
-name: docusaurus
+name: master
 
 on:
   pull_request:
-    branches: [master]
+    branches: 
+    - master
   push:
-    branches: [master]
+    branches: 
+    - master
 
 jobs:
   checks:
