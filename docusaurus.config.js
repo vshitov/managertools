@@ -17,12 +17,6 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Процессы и инструменты',
-          position: 'left',
-        },
-        {
           href: 'https://github.com/vshitov/managertools',
           label: 'GitHub',
           position: 'right',
@@ -43,13 +37,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/vshitov/managertools/edit/main/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/vshitov/managertools/edit/main/',
+            'https://github.com/vshitov/managertools/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

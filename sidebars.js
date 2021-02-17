@@ -1,5 +1,5 @@
 module.exports = {
   Инструменты: {
-    'Процессы': ['change-management'],
+    'С чем работаешь?': ['change-management'],
   },
 };
